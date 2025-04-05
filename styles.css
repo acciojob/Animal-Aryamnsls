@@ -3,39 +3,32 @@ body {
   padding: 0;
   background: repeating-linear-gradient(
     45deg,
-    #2c2c2c,
-    #2c2c2c 10px,
-    #1f1f1f 10px,
-    #1f1f1f 20px
+    #3b3b3b,
+    #3b3b3b 10px,
+    #2a2a2a 10px,
+    #2a2a2a 20px
   );
-  font-family: Arial, sans-serif;
 }
 
 #animal-photos {
-  background-color: #3c3c3c;
-  margin: 40px auto;
+  background-color: #3d3d3d;
+  width: 80%;
+  margin: 30px auto;
   padding: 20px;
-  max-width: 800px;
-  border-radius: 10px;
   text-align: center;
+  border-radius: 10px;
 }
 
 #photo-heading {
   color: white;
+  font-family: Arial, sans-serif;
   font-size: 2em;
-  margin-bottom: 20px;
 }
 
-.photo-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.photo-grid img {
+#animal-photos img {
   width: 200px;
   height: 150px;
+  margin: 10px;
+  border-radius: 10px;
   object-fit: cover;
-  border-radius: 12px;
 }
